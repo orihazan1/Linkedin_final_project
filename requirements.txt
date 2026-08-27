@@ -1,0 +1,7 @@
+# Lower bounds only: Colab ships its own CUDA-matched torch build, and a hard
+# pin would force it to reinstall one that does not match the runtime driver.
+pandas>=2.0
+numpy>=1.24
+torch>=2.0
+transformers>=4.30
+kaggle>=1.6

@@ -1,0 +1,21 @@
+# Raw datasets and generated outputs -- gigabytes, and re-creatable.
+# data/ holds the LinkedIn dump and the ESCO classification CSVs (downloaded),
+# plus job_skill_esco_name.csv (written by src/export_job_skill_esco.py).
+data/
+
+# Pipeline caches: corpus_*_a.pkl, pipeline_output_*_a.pkl, and the ESCO
+# embedding matrices. All rebuilt by re-running src/main.py.
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
